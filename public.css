@@ -1,0 +1,231 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  overflow-x: hidden;
+}
+
+
+.n1 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: #ECECEC;
+  text-align: right;
+}
+
+.n1 li {
+  display: inline-block;
+}
+
+.n1 a {
+  text-decoration: none;
+  font-size: smaller;
+  width: 120px;
+  display: block;
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  text-align: center;
+  color: black;
+  font-weight: 300;
+
+}
+
+.n1 a:hover {
+  color: #F57224;
+  text-decoration: underline;
+}
+
+#logo {
+  padding-top: 10px;
+  z-index: 9999;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 450px;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 50px;
+  padding: 10px;
+  background: #F57224;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+form {
+  position: absolute;
+  top: 40px;
+  left: 200px;
+  bottom: 490px;
+  z-index: 9999;
+}
+.cart{
+  position: absolute;
+  top:50px;
+  bottom: 500px;
+  left:750px
+}
+
+.bluebox{
+  position: absolute;
+  top: 1500px;
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  background-color:#2E2E54 ;
+  height: 400px;
+  color: white;
+}
+.bluebox ul  {
+  list-style: none;
+}
+.bluebox ul a{
+  color: white;
+  text-decoration: none;
+}
+.bluebox ul a:hover{
+  text-decoration: underline;
+}
+.bluebox #qrcode{
+  position: relative;
+  top: 50px;
+  left: 100px;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+.bluebox #dimg{
+  position: relative;
+  top: 80px;
+  left: 100px;
+  width:40px;
+  height: 40px;
+  border-radius: 10px;
+}
+.col4 p{
+  position: relative;
+  top: 80px;
+  left: 100px;
+}
+
+
+
+
+.bluesign{
+  position: absolute;
+  top: 600px;
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  background-color:#2E2E54 ;
+  height: 400px;
+  color: white;
+}
+.bluesign ul  {
+  list-style: none;
+}
+.bluesign ul a{
+  color: white;
+  text-decoration: none;
+}
+.bluesign ul a:hover{
+  text-decoration: underline;
+}
+.bluesign #qrcode_sign{
+  position: relative;
+  top: 50px;
+  left: 100px;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+ #dimg_sign{
+  position: relative;
+  top: 80px;
+  left: 100px;
+  width:40px;
+  height: 40px;
+  border-radius: 10px;
+}
+.bluebox .col4 p{
+  position: relative;
+  top: 80px;
+  left: 100px;
+}
+.bluesign .col4 p{
+  position: relative;
+  top: 80px;
+  left: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.end{
+  position: absolute;
+  top: 2000px;
+  width: 100%;
+  height: 600px;
+  background-color: #F1F1F1;
+  font-size: x-small;
+}
+.end-sign{
+  position: absolute;
+  top: 1100px;
+  width: 100%;
+  height: 600px;
+  background-color: #F1F1F1;
+  font-size: x-small;
+}
+
+.end-container{
+  display:flex;
+  gap: 10px;
+}
+.flex-item{
+  flex: 1;
+  flex-basis: 0;
+}
+.flex-item a{
+  color: black;
+  text-decoration: none;
+}
+.flex-item a:hover{
+  text-decoration: underline;
+}
+.flex-item h5,.flex-item h6{
+  font-size: small;
+}

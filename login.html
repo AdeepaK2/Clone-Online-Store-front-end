@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="https://logos-world.net/wp-content/uploads/2022/05/Daraz-Emblem.png">
+  <title>Online Shopping Sri Lanka</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="public.css">
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="login-signup.css">
+  <script src="https://kit.fontawesome.com/fd2154937b.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <div class="n1">
+      <ul>
+        <li><a href="#">SAVE MORE </a></li>
+        <li><a href="#">DARAZ DONATES</a></li>
+        <li><a href="#">SELL ON DARAZ</a></li>
+        <li><a href="#">CUSTOMER CARE</a></li>
+        <li><a href="#">TRACK </a></li>
+        <li><a href="login.html">LOGIN</a></li>
+        <li><a href="signup.html">SIGNUP</a></li>
+        <li><a href="#"> LANGUAGE</a></li>
+      </ul>
+    </div>
+
+    <div class="logo">
+      <a href="index.html">
+        <img src="images/logo.png" alt="daraz logo" width="145px" height="41px" id="logo">
+      </a>
+    </div>
+
+    <form class="example" action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+    <div class="cart">
+      <i class="fa-solid fa-cart-shopping fa-2xl"></i>
+    </div>
+  </header>
+  <div class="logBackground">
+    <h4>Welcome to Daraz! please login</h4>
+    <form action="" id="lgform">
+      <label for="email">E-mail or Phone*</label><br>
+      <input type="text" name="email" placeholder="please enter your phone number or email" id="email"><br><br>
+      <label for="password">Password*</label><br>
+      <input type="password" name="password" placeholder="please enter your password" id="pw">
+
+      <button type="submit" name="loginbtn" id="lgbtn" onclick="onlogin()">Login</button>
+      <p>or Login with</p>
+      <button type="submit" id="fbbtn" onclick="onlogin()"><i class="fa fa-facebook-official"
+          aria-hidden="true"></i>&nbsp;&nbsp;Facebbok</button>
+      <button type="submit" id="gbtn" onclick="onlogin()"><i class="fa fa-google-plus" aria-hidden="true"
+          ]></i>&nbsp;&nbsp;Google</button><br>
+      <a href="resetpw.html">forget password?</a>
+    </form>
+    <script>
+      function onlogin() {
+        const emailInput = document.getElementById('email').value;
+        const pwInput = document.getElementById('pw').value;
+
+
+        if (emailInput == '') {
+          alert("Add a valid email address");
+          return false;
+        } else if (pwInput == '') {
+          alert("Please enter your password here");
+          return false;
+        } else {
+          alert("Login is done");
+          return true;
+        }
+
+      }
+    </script>
+  </div>
+  <footer>
+    <div class="bluesign">
+      <h4>Customer Care</h4><br>
+      <ul>
+        <li><a href="">Help Center</a></li>
+        <li><a href="">How to Buy</a></li>
+        <li><a href="">Coperate and Bulk Purchasing</a></li>
+        <li><a href="">Returns and Refunds</a></li>
+        <li><a href="">Ask a CC</a></li>
+      </ul><br>
+
+
+
+      
+      <h4>Earn with Daraz</h4><br>
+      <ul>
+        <li><a href="">Daraz University</a></li>
+        <li><a href="">Sell on Daraz</a></li>
+        <li><a href="">Code conduct</a></li>
+        <li><a href="">Affliate</a></li>
+
+      </ul>
+      <img src="https://icms-image.slatic.net/images/ims-web/eec49996-5f51-4b64-ace8-62479d304c95.png" alt="">
+
+    </div>
+    <div class="bluesign">
+      <div class="col1">
+        <h4>Customer Care</h4><br>
+        <ul>
+          <li><a href="">Help Center</a></li>
+          <li><a href="">How to Buy</a></li>
+          <li><a href="">Coperate and Bulk Purchasing</a></li>
+          <li><a href="">Returns and Refunds</a></li>
+          <li><a href="">Ask a CC</a></li>
+        </ul><br>
+
+        <h4>Earn with Daraz</h4><br>
+        <ul>
+          <li><a href="">Daraz University</a></li>
+          <li><a href="">Sell on Daraz</a></li>
+          <li><a href="">Code conduct</a></li>
+          <li><a href="">Affliate</a></li>
+        </ul>
+      </div>
+      <div class="col2">
+        <br><br>
+        <h4>Daraz</h4><br>
+        <ul>
+          <li><a href="">Daraz Store</a></li>
+          <li><a href="">About Daraz</a></li>
+          <li><a href="">Carears</a></li>
+          <li><a href="">Daraz Donates</a></li>
+          <li><a href="">Daraz Blog </a></li>
+          <li><a href="">Terms and Condition</a> </a></li>
+          <li><a href="">App</a></li>
+          <li><a href="">Live Cricket Streaming</a></li>
+          <li><a href="">Edu </a></li>
+
+        </ul>
+      </div>
+      <div class="col3">
+        <img id="qrcode_sign" src="https://icms-image.slatic.net/images/ims-web/eec49996-5f51-4b64-ace8-62479d304c95.png"
+          alt="">
+      </div>
+      <div class="col4">
+        <a href=""><img id="dimg_sign"
+            src="https://icms-image.slatic.net/images/ims-web/f758dd1e-5ee4-46b4-8d73-7cec2e797484.png" alt=""></a>
+        <p id="p1" style="color: darkorange;">Happy Shopping</p><br>
+      </div>
+    </div>
+    <h2 style="position: absolute;top:1000px"> © Daraz 2023</h2>
+    <div class="end-container end-sign">
+      <div class="flex-item">
+        <h5>Online Shopping In Sri Lanka with Free Home Delivery – Daraz.lk</h5>
+        <p>What was the last time you had an exciting and rewarding online shopping experience? Can’t remember! How
+          about we make it even more convenient, fast and affordable to fulfill all your buying needs? With Sri Lanka's
+          biggest online shopping store, you can choose from hundreds and thousands of endless and ageless collections
+          of chicest and stylish products. Online shopping at Daraz Sri Lanka offers you easy and convenient platform to
+          order your most desired products with comfort of your home. Being the largest online shopping site in Sri
+          Lanka, Daraz is home to endless products featured in consumer electronics, home appliances, fashion and
+          everything in between. Daraz is a global online marketplace with ecommerce stores in Sri Lanka, Pakistan,
+          Bangladesh, Nepal and Myanmar.</p>
+        <p>Experience online shopping in Sri Lanka with Daraz.lk by purchasing genuine quality products showcased by
+          verified sellers across the country that will ensure safe and swift deliveries of your orders.</p>
+      </div>
+      <div class="flex-item">
+        <p>Our supply and logistic service will ensure on-time delivery of your orders in Colombo, Dehiwala-Mount
+          Lavinia, Moratuwa, Jaffna, Negombo, Pita Kotte, Sri Jayewardenepura Kotte, Kandy, Trincomalee and within all
+          major cities in Sri Lanka.</p>
+        <h5>Looking For Exclusive Discount while Shopping online in Sri Lanka?</h5>
+        <p>Enhance Your Online Shopping Experience in Sri Lanka by having everything Daraz.lk offers at the palm of your
+          hands, whether you’re sporting an iOS or Android gadget, download the daraz app to get your orders with free
+          delivery.</p>
+        <h5><a href="">TRENDING</a></h5>
+        <p>Bmw I8 , Suzuki Swift , KTM Bike , Pantry Cupboard , Crew Cab , Cocker Spaniel , 1 KG Cashew Nut , 1 KG Flour
+          , 1 KG Rice Cooker , 1 KG Tea , 1000W Amplifier , 1000W Inverter , 100W Led Flashlight , 1044 Wire , 12V 7AH
+          Battery , 12V 90AH Battery , 12V 9AH Battery , 12V Battery , 12V DC To 230V AC Inverter , 12V Exide Battery ,
+          15 Inch Speaker , 15W40 Engine Oil , 18 Carat Gold , 18 Inch Speaker , 18650 Battery , 1KG Cake , 1TB Hard , 2
+          By 2 Rubik's Cube , 200 Pages CR Book , 200W Amplifier Board , 200W Amplifier , 22K Gold Ring , 24K Gold Serum
+          , 25 KG Rice</p>
+      </div>
+      <div class="flex-item">
+        <h5>Top Categories & Brands</h5>
+        <h6><a href=""> MOBILE PHONES IN SRI LANKA</a></h6>
+        <p>Apple Phone Price in Sri Lanka, Samsung Phone Price in Sri Lanka, Huawei Phones, One Plus Phones, Xiaomi
+          Phones, Vivo Phones, Google Phones, Nokia Phones</p>
+        <h6><a href="">LAPTOPS IN SRI LANKA</a></h6>  
+        <p>Apple Laptop Price in Sri Lanka, Dell Laptop Price, HP Laptop Price, Asus Laptop Price, Lenovo Laptops, Acer Laptops</p>
+        <h6><a href="">MENS FASHION</a></h6>
+        <p>Watch Price in Sri Lanka, Mens Shoes, Perfume for Men, T-Shirt for Men, Mens Jewellery, Sunglasses Sri Lanka</p>
+        <h6><a href=""> WOMENS FASHION</a></h6>
+        <p>Party Sarees in Sri Lanka, Sri Lanka Clothes, Ladies Shoes, Cosmetics, Party Frocks in Sri Lanka</p>
+        <h6><a href="">HOME APPLIANCES</a></h6>
+        <p>Washing Machine Price, Refrigerator Price, Microwave Oven Price, Oven Price in Sri Lanka, Generators, Fans, Air Conditioners, Tv Price in Sri Lanka, Portable Air Conditioners</p>
+        <h6><a href="">ELECTRONICS</a></h6>
+        <p>Speakers, Portable Speakers, Smart Watches, Power Bank Price in Sri Lanka</p>
+      </div>
+      <div class="flex-item">
+        <h6><a href="">STORAGE DEVICES</a></h6>
+        <p>Pen Drive Price, External Hard Disk, Memory Card Price</p>
+        <h6><a href="">WIRELESS DEVICES</a></h6>
+        <p>Bluetooth Price, Airpods in Sri Lanka, Emergency Light Sri Lanka, Headphones</p>
+        <h6><a href="">ONLINE GROCERY SHOPPING</a></h6>
+        <p>Breakfast Items, Baby Care Items, Beauty & Personal Care Products</p>
+        <h6><a href="">Cameras</a></h6>
+        <p>Digital Camera, CCTV Camera, Car Camera</p>
+        <h6><a href="">SKIN CARE SRI LANKA</a></h6>
+        <p>Facia Night Cream, Face Wash, Jovees Face Wash, Whitening Cream, Body Whitening Cream</p>
+        <h6><a href="">BATTERIES</a></h6>
+        <p>Laptop Battery, Battery Chargers</p>
+        <h6><a href="">PHONE ACCESSORIES</a></h6>
+        <p>Phone Cover, iPhone Charger, Samsung Wireless Charger</p>
+        <h6><a href="">SHOP WORLDWIDE WITH LAZADA</a></h6>
+        <p>Singapore, Malaysia, Philipines, Indonesia, Vietnam, Thailand</p>
+      </div>
+    </div>
+
+  </footer>
+
+</body>
+
+</html>

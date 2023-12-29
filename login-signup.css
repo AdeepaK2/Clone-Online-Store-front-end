@@ -1,0 +1,171 @@
+.logBackground{
+   position: absolute; 
+   top: 100px;
+   width: 100%;
+   height: 500px;
+   background-color: rgb(239,240,245);
+   z-index: -1;
+}
+.logBackground h4{
+    position: relative;
+    left: 200px;
+    top: 50px;
+}
+#lgform{
+    background-color: white;
+    position: absolute;
+    top: 130px;
+    z-index: 1;
+    width: 700px;
+    height: 300px;
+    padding: 15px;
+}
+.logBackground form input{
+    width:350px ;
+}
+#lgbtn{
+    background-color: #F57224;
+    width:240px ;
+    height: 50px;
+    position: relative;
+    bottom: 90px;
+    left: 50px;
+    color: white;
+}
+form p{
+    position: relative;
+    left: 400px;
+    bottom: 80px;
+    font-size: small;
+}
+#fbbtn{
+    width: 240px;
+    height: 50px;
+    background-color: #3B5998;
+    color: white;
+    position: relative;
+    left: 400px;
+    bottom:80px;
+}
+#gbtn{
+    width: 240px;
+    height: 50px;
+    background-color:#D34836 ;
+    color: white;
+    position: relative;
+    left: 155px;
+    bottom: 20px;
+}
+form a{
+    font-size: smaller;
+    position: relative;
+    bottom: 80px;
+    left:199px;
+}
+#suppassword{
+    position: absolute;
+    top: 125px;
+}
+#lbpassword{
+    position: absolute;
+    top: 100px;
+}
+#suform{
+    background-color: white;
+    position: absolute;
+    top: 130px;
+    z-index: 1;
+    width: 700px;
+    height: 300px;
+    padding: 15px;
+}
+#supname,#supemail,#suppassword{
+    width: 300px;
+}
+#supname{
+    position: absolute;
+    top: 40px;
+    left: 350px;
+    
+}
+#lblforname{
+    position: absolute;
+    top: 15px;
+    left: 350px;
+}
+
+
+#genderlb{
+    position: absolute;
+    top: 160px;
+    left: 230px;
+}
+#gender{
+    position: absolute;
+    left: 230px;
+    top:185px ;
+
+}
+.checkbox{
+    position: absolute;
+    left:180px;
+    top: 100px;
+    
+}
+#lblnotify{
+    font-size:x-small;
+    position: absolute;
+    top: 100px;
+    left: 370px;
+}
+#subtn{
+    background-color: #F57224;
+    width:240px ;
+    height: 50px;
+    position: absolute;
+    top: 130px;
+    left: 380px;
+    color: white;
+
+}
+#sufbbtn{
+    width: 160px;
+    height: 50px;
+    background-color: #3B5998;
+    color: white;
+
+}
+#sugbtn{
+    position: absolute;
+    top: 190px;
+    left: 520px; ;
+    width: 160px;
+    height: 50px;
+    background-color:#D34836 ;
+    color: white;
+}
+#sufbbtn{
+    position: absolute;
+    top:190px;
+    left:350px
+}
+
+#lblbday{
+    position: absolute;
+    top:160px;
+    right:612px;
+}
+#birthMonth{
+    position: absolute;
+    top: 185px;
+    left: 70px;
+}
+#birthYear{
+    position: absolute;
+    top: 185px;
+}
+#birthDate{
+    position: absolute;
+    top: 185px;
+    left: 170px;
+}
